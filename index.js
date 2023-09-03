@@ -40,7 +40,6 @@ function logUserPosts() {
   console.log("User's Posts:", userPosts);
 }
 
-// Example usage:
 async function main() {
   try {
     const post = await createPost("New post content");
